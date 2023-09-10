@@ -197,7 +197,7 @@ https://github.com/rasafitri/matrix-example/assets/129408886/c0aa9d4f-b9c9-4493-
   uint16_t myBLACK = display.color565(0, 0, 0);
   ```
         
-- Bild definieren. Das Bild mit dem Youtube Logo wird hier als Beispiel verwendet. Das Bild wurde in .c Datei mit diesem ImageConverter (UTFT) umgewandelt. Sie können auch ein anderes Bild verwenden. Achten Sie bitte darauf, dass das Bild kleiner oder genau so groß ist als/wie Ihre Anzeige, damit das Bild nicht abgeschnitten wird. Danach wählen Sie `Convert to .c file` aus und klicken Sie auf `Make File`. Die Datei wird dann automatisch heruntergeladen. Öffnen Sie die Datei und kopieren Sie die Hex Werte und fügen Sie diese in Ihren Code ein.
+- Bild definieren. [Das Bild mit dem Youtube Logo](/images/yt-logo.png) wird hier als Beispiel verwendet. Das Bild wurde in .c Datei mit diesem ImageConverter (UTFT) umgewandelt. Sie können auch ein anderes Bild verwenden. Achten Sie bitte darauf, dass das Bild kleiner oder genau so groß ist als/wie Ihre Anzeige, damit das Bild nicht abgeschnitten wird. Danach wählen Sie `Convert to .c file` aus und klicken Sie auf `Make File`. Die Datei wird dann automatisch heruntergeladen. Öffnen Sie die Datei und kopieren Sie die Hex Werte und fügen Sie diese in Ihren Code ein.
    ```
    // ----------------------------------------
    // Beispielbild
