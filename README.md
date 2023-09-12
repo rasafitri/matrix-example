@@ -20,7 +20,7 @@
     
 - PxMatrix Bibliothek in Arduino IDE einbinden
     
-    [PxMatrix](https://github.com/2dom/PxMatrix) - An dieser Stelle danke an Dominic Buchstaller @2dom für die wundervolle Bibliothek.
+    [PxMatrix](https://github.com/2dom/PxMatrix) - An dieser Stelle danke an Dominic Buchstaller `@2dom` für die wundervolle Bibliothek.
     
     - master Branch als .zip herunterladen
         
@@ -90,14 +90,14 @@
         | OE | 16 - RX2 | 02 - D4 |
         | GND | GND | GND |
 
-    **Anmerkung**: Pins C, D und E werden nur je nach der Abtastrate der Anzeige benötigt (siehe Tabelle oben). Diese Abtastrate finden Sie auf der Rückseite der Anzeige. Aber, es gibt einige 16S Anzeigen, bei der der E Pin angeschlossen werden muss, da ansonsten Lücken in der Anzeige entstehen können. Sie können überprüfen, ob der Pin angeschlossen werden muss, indem Sie der E Pin gegen GND messen. Falls der Pin mit GND verbunden ist, dann brauchen Sie diesen Pin nicht anschließen.
+    **Anmerkung**: Pins C, D und E werden nur je nach der Abtastrate der Anzeige benötigt (siehe Tabelle oben). Diese Abtastrate finden Sie auf der Rückseite der Anzeige. Aber, es gibt einige 16S Anzeigen, bei der der E Pin angeschlossen werden muss, da ansonsten Lücken in der Anzeige entstehen können. Sie können überprüfen, ob der Pin angeschlossen werden muss, indem Sie der E Pin gegen `GND` messen. Falls der Pin mit `GND` verbunden ist, dann brauchen Sie diesen Pin nicht anschließen.
 
 - ESP an PC über USB Kabel verbinden
 - HUB75 LED-Matrixanzeige an Stromversorgung anschließen (nicht in der Skizze dargestellt)
       
 ### Upload Code
     
-Laden Sie den main Branch dieses Repositorys als .zip herunter und entpacken Sie die Datei in Ihren Arbeitsordner. Danach machen Sie die matrix_example.ino Datei mit Arduino IDE auf. Wählen Sie dann das richtige Board (für ESP32 ESP32-WROOM-DA Module oder für ESP8266 NodeMCU 1.0 (ESP-12E Module)) sowie den richtigen Port aus und klicken Sie auf Upload. 
+Laden Sie den `main` Branch dieses Repositorys als .zip herunter und entpacken Sie die Datei in Ihren Arbeitsordner. Danach machen Sie die `matrix_example.ino` Datei mit Arduino IDE auf. Wählen Sie dann das richtige Board (für ESP32 ESP32-WROOM-DA Module oder für ESP8266 NodeMCU 1.0 (ESP-12E Module)) sowie den richtigen Port aus und klicken Sie auf Upload. 
     
 ![upload.png](images/upload.png)
 
